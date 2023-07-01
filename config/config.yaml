@@ -1,0 +1,15 @@
+OPENAI_API_URL: https://api.openai.com/v1/chat/completions
+
+USERS:
+  - USER_NAME: shy
+    OPENAI_API_KEY: sk-xxx
+  
+  - USER_NAME: lkb
+    OPENAI_API_KEY: sk-xxx
+
+PRICE:
+  GPT3_5_04K: 0.0015
+  GPT3_5_16K: 0.003
+  GPT4_0_16K: 0.03
+  GPT4_0_32K: 0.06
+

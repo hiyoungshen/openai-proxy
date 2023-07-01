@@ -1,0 +1,9 @@
+services:
+  mchat:
+    image: hiyoungshen/mchat:latest
+    container_name: mchat
+    restart: unless-stopped
+    ports:
+      - 3001:5000
+    volumes:
+      - ./app:/app
